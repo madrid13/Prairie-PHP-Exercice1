@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
     <?php
     $x = "5";
     $y = "8";
+      
+      echo $x + $y.'<br>'; 
+      echo $x * $y.'<br>';
       ?>
-    <p> <?php echo $x + $y; ?> </p>
-    <p> <?php echo $x * $y; ?> </p>
 
-  </body>
-</html> 
